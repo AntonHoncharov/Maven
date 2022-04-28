@@ -8,8 +8,6 @@ public class TaskTwoTest{
     int[] numsTwo = {1,1,1,1};
     int[] numsThree = {1,2,3};
 
-
-
     @Test
     public void testNumIdenticalPairs() {
         Assert.assertEquals(4, taskTwo.numIdenticalPairs(numsOne));

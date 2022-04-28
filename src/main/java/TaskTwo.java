@@ -7,5 +7,5 @@ public class TaskTwo {
                 if (nums[i] == nums[j]) ++ans;
         return ans;
     }
-    }
+}
 
