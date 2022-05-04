@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TaskTwoTest{
+public class TaskTwoTest {
 
     TaskTwo taskTwo =new TaskTwo();
     int[] numsOne = {1,2,3,1,1,3};

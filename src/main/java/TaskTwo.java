@@ -1,3 +1,4 @@
+
 public class TaskTwo {
 
     public int numIdenticalPairs(int[] nums) {
@@ -8,4 +9,3 @@ public class TaskTwo {
         return ans;
     }
 }
-
