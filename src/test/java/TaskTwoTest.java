@@ -1,9 +1,10 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TaskTwoTest{
+public class TaskTwoTest {
 
     TaskTwo taskTwo =new TaskTwo();
+
     int[] numsOne = {1,2,3,1,1,3};
     int[] numsTwo = {1,1,1,1};
     int[] numsThree = {1,2,3};

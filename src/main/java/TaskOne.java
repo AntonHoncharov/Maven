@@ -8,8 +8,8 @@ public class TaskOne {
             s[i] = jewels.charAt(i);
         }
         for (int j = 0; j < stones.length(); j++) {
-            for (int k = 0; k < jewels.length(); k++) {
-                if (s[k] == stones.charAt(j))
+            for (int m = 0; m < jewels.length(); m++) {
+                if (s[m] == stones.charAt(j))
                     result++;
             }
         }
