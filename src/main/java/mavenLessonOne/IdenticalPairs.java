@@ -1,5 +1,6 @@
+package mavenLessonOne;
 
-public class TaskTwo {
+public class IdenticalPairs {
 
     public int numIdenticalPairs(int[] nums) {
 

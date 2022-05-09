@@ -1,4 +1,6 @@
-public class TaskOne {
+package mavenLessonOne;
+
+public class JewelsInStones {
 
     public int numJewelsInStones(String jewels, String stones) {
 
@@ -16,3 +18,4 @@ public class TaskOne {
         return result;
     }
 }
+
