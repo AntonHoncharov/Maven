@@ -18,12 +18,26 @@
             <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.11.0</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>cn.nikeo.jsonBuilder</groupId>
+            <artifactId>jsonBuilder</artifactId>
+            <version>0.2.0</version>
         </dependency>
     </dependencies>
 </project>
