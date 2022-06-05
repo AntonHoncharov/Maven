@@ -9,7 +9,6 @@ public enum Commands {
     HELP ("help", "provide list of availible commands"),
     DELETE("delete", "delete book");
 
-
     public String value;
     public String description;
 

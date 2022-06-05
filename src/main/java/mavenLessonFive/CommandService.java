@@ -1,8 +1,7 @@
 package mavenLessonFive;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import com.fasterxml.jackson.databind.json.JsonMapper;
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.function.Consumer;
@@ -11,17 +10,7 @@ public class CommandService {
 
     Book book = new Book();
 
-    private static LibSerializer libSerializer;
-
-    static {
-        try {
-            libSerializer = new LibSerializer
-                    (new BufferedReader(new FileReader("src/main/resources/ListBooks.txt")));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
+    private static LibSerializer libSerializer = new LibSerializer(new JsonMapper());
     private static Library lib;
 
     {
